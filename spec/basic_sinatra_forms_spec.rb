@@ -24,7 +24,7 @@ describe App do
      
       
       
-      expect(page).to have_field(:age)
+      
     end
   end
 
