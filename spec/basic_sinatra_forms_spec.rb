@@ -34,7 +34,7 @@ describe App do
 
      
       
-      click_button "submit"
+     
       expect(page).to have_text("Puppy Name:\nButch")
       expect(page).to have_text("Puppy Breed:\nMastiff")
       expect(page).to have_text("Puppy Age:\n6 months")
