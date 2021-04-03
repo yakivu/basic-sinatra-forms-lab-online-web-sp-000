@@ -23,7 +23,7 @@ describe App do
       visit '/new'
      
       
-      expect(page).to have_field(:breed)
+      
       expect(page).to have_field(:age)
     end
   end
