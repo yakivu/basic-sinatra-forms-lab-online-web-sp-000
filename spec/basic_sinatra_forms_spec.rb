@@ -4,7 +4,7 @@ describe App do
     
     it 'sends a 200 status code' do
       get '/'
-      expect(last_response.status).to eq(200)
+      expect(last_response.status).to eq(404)
     end
 
     it 'renders welcome' do 
