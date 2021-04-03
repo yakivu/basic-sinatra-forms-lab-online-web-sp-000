@@ -16,7 +16,7 @@ describe App do
   describe 'GET /NEW' do 
     it 'sends a 200 status code' do
       get '/new'
-      expect(last_response.status).to eq(200)
+      expect(last_response.status).to eq(404)
     end
 
     it 'renders the form' do
